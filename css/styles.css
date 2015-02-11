@@ -7,6 +7,8 @@ body {
   margin-top: 20px;
   margin-left: 0px;
   display: none;
+  font-size: 100px;
+  text-align: center;
 }
 
 .btn-custom {
@@ -66,7 +68,7 @@ li {
   margin: 1em auto;
   padding: 15px;
   border: 3px solid gray;
-  border-radius: 15px;
+  border-radius: 0px;
 }
 
 /*input, .form-control {

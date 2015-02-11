@@ -26,7 +26,8 @@ $(document).ready(function() {
     var number = parseInt($("input#number").val());
     var result = romanNumeral(number);
 
-    $("#results").show().text(result);
+    $("#results").show()
+    $("#romanTitle").text(result);
 
     event.preventDefault();
   });
