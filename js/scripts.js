@@ -19,3 +19,15 @@ for(var i=0; i<=numbers.length; i++)
 
 return result
 }
+
+
+$(document).ready(function() {
+  $("form#numeralForm").submit(function(event) {
+    var number = parseInt($("input#number").val());
+    var result = romanNumeral(number);
+
+    $("#results").show().text(result);
+
+    event.preventDefault();
+  });
+});
